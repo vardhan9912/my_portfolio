@@ -45,6 +45,7 @@ nav ul li a:hover {
     color: #007bff;
 }
 
+/* Home Section */
 #home {
     min-height: 80vh;
     padding: 100px 10%;
@@ -102,6 +103,8 @@ nav ul li a:hover {
     background-color: #007bff;
     color: white;
 }
+
+/* About Me Section */
 #about {
     min-height: 80vh;
     padding: 100px 10%;
@@ -137,3 +140,61 @@ nav ul li a:hover {
     line-height: 1.8;
     color: #444;
 }
+
+/* skills-section */
+#skills {
+    min-height: 80vh;
+    padding: 100px 10%;
+}
+
+#skills > p {
+    font-size: 16px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#skills h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#skills h2 span {
+    color: #007bff;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.skill-category {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-8px);
+}
+
+.skill-category h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list span {
+    background-color: #f0f4f8;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+

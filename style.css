@@ -163,11 +163,29 @@ nav ul li a:hover {
 }
 
 .skills-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
     gap: 25px;
+    padding: 25px;
+    border-radius: 10px;
 }
-
+.programmingskills-container {
+    background-color: rgb(120, 214, 120);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.programmingskills-container h2 {
+    align-self: center;
+    margin-right: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 150px;
+    font-size: 24px;
+}
 .skill-category {
     background-color: white;
     padding: 25px;
@@ -197,4 +215,37 @@ nav ul li a:hover {
     border-radius: 5px;
     font-size: 14px;
 }
+.Editingskill-container {
+    background-color: rgb(120, 214, 120);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Editingskill-category {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+}
+.Editingskill-category h3 {
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+.Editingskills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Editingskills-list span {
+    background-color: #f0f4f8;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
 
+.Editingskill-category:hover {
+    transform: translateY(-8px);
+}
